@@ -30,21 +30,3 @@ const Forecast = ({ weather }) => {
 
 export default Forecast;
 
-// return (
-//   <>
-//     <div>{weather.name}</div>
-//     <h1>{currentTemp}</h1>
-//     {/* <h1 > {weather.main?.temp}</h1> */}
-//     <h3>{weather.weather[0].description}</h3>
-//     <div className="min-max">
-//       <div className="temps" id="min">
-//         <small>min</small>
-//         <h2>{weather.main?.temp_min}</h2>
-//       </div>
-//       <div className="temps" id="max">
-//         <small>max</small>
-//         <h2>{weather.main?.temp_max}</h2>
-//       </div>
-//     </div>
-//   </>
-// );
